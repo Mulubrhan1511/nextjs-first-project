@@ -1,5 +1,6 @@
-export default function Product({ params }: { params: { id: string } }) {
-    const { id } = params; // params is a plain object, no need to await
-    return <h1>Product: {id}</h1>;
-  }
-  
+import { use } from "react";
+
+export default function Product({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params); // Resolves the promise using `use`
+  return <h1>Product: {id}</h1>;
+}
