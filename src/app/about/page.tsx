@@ -1,6 +1,6 @@
 'use client';
 
-import { useRouter } from "next/navigation";
+
 import { MacbookScroll } from "../components/ui/macbook-scroll";
 
 export default function About() {
