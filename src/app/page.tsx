@@ -1,6 +1,6 @@
 
-import { Greet } from "./components/greet";
-import { Counter } from "./components/counter";
+
+
 import { HeroParallax } from "./components/ui/hero-parallax";
 
 export const products = [

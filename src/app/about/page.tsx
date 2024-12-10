@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { MacbookScroll } from "../components/ui/macbook-scroll";
 
 export default function About() {
-    const router = useRouter();
+    
     return (
         <>
         <div style={{ paddingBottom: "230vh" }}> 
